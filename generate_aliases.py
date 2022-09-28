@@ -57,6 +57,7 @@ def main():
         ('ing', 'ingress', ['g', 'd', 'rm', 'e'], None),
         ('cm', 'configmap', ['g', 'd', 'rm', 'e', 'c'], None),
         ('sec', 'secret', ['g', 'd', 'rm', 'e', 'c'], None),
+        ('ss', 'sealedsecret', ['g', 'd', 'rm', 'e', 'c'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm', 'e', 'c'], ['sys']),
         ]
