@@ -59,7 +59,7 @@ def main():
         ('sec', 'secret', ['g', 'd', 'rm', 'e', 'c'], None),
         ('ss', 'sealedsecret', ['g', 'd', 'rm', 'e', 'c'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
-        ('ns', 'namespaces', ['g', 'd', 'rm', 'e', 'c'], ['sys']),
+        ('ns', 'namespace', ['g', 'd', 'rm', 'e', 'c'], ['sys']),
         ]
     res_types = [r[0] for r in res]
 
